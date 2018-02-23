@@ -41,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B37EAD920400742007C7D06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BDA0CB1203FE1C900738D77 /* BK XCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BK XCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDA0CB4203FE1C900738D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDA0CB6203FE1C900738D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		8BDA0CA8203FE1C900738D77 = {
 			isa = PBXGroup;
 			children = (
+				8B37EAD920400742007C7D06 /* README.md */,
 				8BDA0CB3203FE1C900738D77 /* BK XCode */,
 				8BDA0CCA203FE1E200738D77 /* BK Edit */,
 				8BDA0CC7203FE1E200738D77 /* Frameworks */,
