@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BDA0CB5203FE1C900738D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA0CB4203FE1C900738D77 /* AppDelegate.swift */; };
+		8BDA0CB7203FE1C900738D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDA0CB6203FE1C900738D77 /* Assets.xcassets */; };
+		8BDA0CBA203FE1C900738D77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BDA0CB8203FE1C900738D77 /* MainMenu.xib */; };
+		8BDA0CC9203FE1E200738D77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDA0CC8203FE1E200738D77 /* Cocoa.framework */; };
+		8BDA0CCC203FE1E200738D77 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA0CCB203FE1E200738D77 /* SourceEditorExtension.swift */; };
+		8BDA0CCE203FE1E200738D77 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA0CCD203FE1E200738D77 /* SourceEditorCommand.swift */; };
+		8BDA0CD3203FE1E200738D77 /* BK Edit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BDA0CC6203FE1E200738D77 /* BK Edit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BDA0CD1203FE1E200738D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BDA0CA9203FE1C900738D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BDA0CC5203FE1E200738D77;
+			remoteInfo = "BK Edit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BDA0CD7203FE1E200738D77 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8BDA0CD3203FE1E200738D77 /* BK Edit.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BDA0CB1203FE1C900738D77 /* BK XCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BK XCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDA0CB4203FE1C900738D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BDA0CB6203FE1C900738D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BDA0CB9203FE1C900738D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8BDA0CBB203FE1C900738D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDA0CBC203FE1C900738D77 /* BK_XCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BK_XCode.entitlements; sourceTree = "<group>"; };
+		8BDA0CC6203FE1E200738D77 /* BK Edit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BK Edit.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDA0CC8203FE1E200738D77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8BDA0CCB203FE1E200738D77 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		8BDA0CCD203FE1E200738D77 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		8BDA0CCF203FE1E200738D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDA0CD0203FE1E200738D77 /* BK_Edit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BK_Edit.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BDA0CAE203FE1C900738D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDA0CC3203FE1E200738D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDA0CC9203FE1E200738D77 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BDA0CA8203FE1C900738D77 = {
+			isa = PBXGroup;
+			children = (
+				8BDA0CB3203FE1C900738D77 /* BK XCode */,
+				8BDA0CCA203FE1E200738D77 /* BK Edit */,
+				8BDA0CC7203FE1E200738D77 /* Frameworks */,
+				8BDA0CB2203FE1C900738D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BDA0CB2203FE1C900738D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA0CB1203FE1C900738D77 /* BK XCode.app */,
+				8BDA0CC6203FE1E200738D77 /* BK Edit.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDA0CB3203FE1C900738D77 /* BK XCode */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA0CB4203FE1C900738D77 /* AppDelegate.swift */,
+				8BDA0CB6203FE1C900738D77 /* Assets.xcassets */,
+				8BDA0CB8203FE1C900738D77 /* MainMenu.xib */,
+				8BDA0CBB203FE1C900738D77 /* Info.plist */,
+				8BDA0CBC203FE1C900738D77 /* BK_XCode.entitlements */,
+			);
+			path = "BK XCode";
+			sourceTree = "<group>";
+		};
+		8BDA0CC7203FE1E200738D77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA0CC8203FE1E200738D77 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BDA0CCA203FE1E200738D77 /* BK Edit */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA0CCB203FE1E200738D77 /* SourceEditorExtension.swift */,
+				8BDA0CCD203FE1E200738D77 /* SourceEditorCommand.swift */,
+				8BDA0CCF203FE1E200738D77 /* Info.plist */,
+				8BDA0CD0203FE1E200738D77 /* BK_Edit.entitlements */,
+			);
+			path = "BK Edit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BDA0CB0203FE1C900738D77 /* BK XCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDA0CBF203FE1C900738D77 /* Build configuration list for PBXNativeTarget "BK XCode" */;
+			buildPhases = (
+				8BDA0CAD203FE1C900738D77 /* Sources */,
+				8BDA0CAE203FE1C900738D77 /* Frameworks */,
+				8BDA0CAF203FE1C900738D77 /* Resources */,
+				8BDA0CD7203FE1E200738D77 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BDA0CD2203FE1E200738D77 /* PBXTargetDependency */,
+			);
+			name = "BK XCode";
+			productName = "BK XCode";
+			productReference = 8BDA0CB1203FE1C900738D77 /* BK XCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BDA0CC5203FE1E200738D77 /* BK Edit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDA0CD4203FE1E200738D77 /* Build configuration list for PBXNativeTarget "BK Edit" */;
+			buildPhases = (
+				8BDA0CC2203FE1E200738D77 /* Sources */,
+				8BDA0CC3203FE1E200738D77 /* Frameworks */,
+				8BDA0CC4203FE1E200738D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BK Edit";
+			productName = "BK Edit";
+			productReference = 8BDA0CC6203FE1E200738D77 /* BK Edit.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BDA0CA9203FE1C900738D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Konstantin Bondarchuk";
+				TargetAttributes = {
+					8BDA0CB0203FE1C900738D77 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8BDA0CC5203FE1E200738D77 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BDA0CAC203FE1C900738D77 /* Build configuration list for PBXProject "BK XCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BDA0CA8203FE1C900738D77;
+			productRefGroup = 8BDA0CB2203FE1C900738D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BDA0CB0203FE1C900738D77 /* BK XCode */,
+				8BDA0CC5203FE1E200738D77 /* BK Edit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BDA0CAF203FE1C900738D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDA0CB7203FE1C900738D77 /* Assets.xcassets in Resources */,
+				8BDA0CBA203FE1C900738D77 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDA0CC4203FE1E200738D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BDA0CAD203FE1C900738D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDA0CB5203FE1C900738D77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDA0CC2203FE1E200738D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDA0CCC203FE1E200738D77 /* SourceEditorExtension.swift in Sources */,
+				8BDA0CCE203FE1E200738D77 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BDA0CD2203FE1E200738D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BDA0CC5203FE1E200738D77 /* BK Edit */;
+			targetProxy = 8BDA0CD1203FE1E200738D77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BDA0CB8203FE1C900738D77 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDA0CB9203FE1C900738D77 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BDA0CBD203FE1C900738D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BDA0CBE203FE1C900738D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8BDA0CC0203FE1C900738D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BK XCode/BK_XCode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VEEJ535BJX;
+				INFOPLIST_FILE = "BK XCode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8BDA0CC1203FE1C900738D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BK XCode/BK_XCode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VEEJ535BJX;
+				INFOPLIST_FILE = "BK XCode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		8BDA0CD5203FE1E200738D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BK Edit/BK_Edit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VEEJ535BJX;
+				INFOPLIST_FILE = "BK Edit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode.BK-Edit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8BDA0CD6203FE1E200738D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BK Edit/BK_Edit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VEEJ535BJX;
+				INFOPLIST_FILE = "BK Edit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode.BK-Edit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BDA0CAC203FE1C900738D77 /* Build configuration list for PBXProject "BK XCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDA0CBD203FE1C900738D77 /* Debug */,
+				8BDA0CBE203FE1C900738D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDA0CBF203FE1C900738D77 /* Build configuration list for PBXNativeTarget "BK XCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDA0CC0203FE1C900738D77 /* Debug */,
+				8BDA0CC1203FE1C900738D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDA0CD4203FE1E200738D77 /* Build configuration list for PBXNativeTarget "BK Edit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDA0CD5203FE1E200738D77 /* Debug */,
+				8BDA0CD6203FE1E200738D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BDA0CA9203FE1C900738D77 /* Project object */;
+}
