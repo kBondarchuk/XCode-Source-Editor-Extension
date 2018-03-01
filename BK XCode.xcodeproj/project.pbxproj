@@ -412,7 +412,7 @@
 				DEVELOPMENT_TEAM = VEEJ535BJX;
 				INFOPLIST_FILE = "BK Edit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode.BK-Edit";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode.BKEdit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -428,7 +428,7 @@
 				DEVELOPMENT_TEAM = VEEJ535BJX;
 				INFOPLIST_FILE = "BK Edit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode.BK-Edit";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.bondarchuk.BK-XCode.BKEdit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;

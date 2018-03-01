@@ -12,8 +12,9 @@ import XcodeKit
 class SourceEditorExtension: NSObject, XCSourceEditorExtension {
     
 	func extensionDidFinishLaunching() {
-		// If your extension needs to do any work at launch, implement this optional method.
+		#if DEBUG
 		print("Started.")
+		#endif
 	}
 
 
